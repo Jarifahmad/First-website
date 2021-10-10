@@ -1,0 +1,134 @@
+.intro
+{
+  position: relative;
+  padding-left: 5%;
+  color: white;
+  text-align: center;
+  right: 70px;
+  top: 20px;
+}
+.name
+{
+  color:red;
+}
+.paragraph-intro
+{
+  position: relative;
+  left: 390px;
+  text-align: center;
+}
+body
+{
+  background-image: url('images/bg.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family:'arial', Courier, monospace;
+  font-size: 20px;
+  color: black;
+  line-height: 26px;
+}
+.dark-blue
+{
+  color: darkblue;
+}
+.half-width
+{
+ width: 50%;
+ float: left;
+}
+.me-1
+{ 
+  position: relative;
+  width: 300px;
+  border: 3px solid #a01739;
+  padding: 10px;
+  left: 480px;
+  top: 350px;
+}
+.me-2
+{
+  position: relative;
+  width: 300px;
+  border: 3px solid #a01739;
+  padding: 10px;
+}
+.hire-btn
+{
+  color: white;
+  background-color: #d6a620;
+  padding: 13px 42px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.container
+{
+  padding-left: 5%;
+  display: inline-block;
+  color: white;
+}
+.experiences
+{
+  position: relative;
+  float: left
+  width: 40%;
+  margin: 5%;
+  background-color: rgb(238, 251, 255);
+  border-radius: 10px;
+  border: solid #88454f;
+  color: black;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  bottom: 200px;
+  left: 75px;
+}
+.experience-item
+{
+  padding: 10px;
+  border-left: 1px solid rgba(137, 130, 247, .2);
+  position: relative;
+  right: 10%;
+  padding: 10px;
+  color: black;
+}
+.second-header
+{
+  position: relative;
+  width: 700px;
+  line-height: normal;
+  left: 500px;
+  text-align: center;
+}
+.copyright
+{
+  position: relative;
+  text-align: center;
+}
+.my-dreams
+{
+  position: relative;
+  border: solid #88454f;
+  width: 50%;
+  float: left;
+  padding-left: 2%; 
+  height: 10%;
+  background-color: white;
+  width: 60%;
+  color: black;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  left: 500px;
+  bottom: 300px;
+}
+.email-butn
+{
+  color: white;
+  background-color: #88454f;
+  padding: 
+  border-radius: 20px;
+  text-decoration: none;
+}
+.experiences-title
+{
+  position: relative;
+  right: 10%;
+  color: black;
+}
