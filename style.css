@@ -1,12 +1,30 @@
-.intro{
+html
+{
+  position: relative;
+  height: 10%;
+}
+.intro
+{
+  position: relative;
   padding-left: 5%;
   color: white;
+  text-align: center;
+  right: 70px;
+  top: 20px;
 }
-.name{
+.name
+{
   color:red;
 }
-body {
-  background-image: url('file:///C:/Users/jarif/Downloads/46497.png');
+.paragraph-intro
+{
+  position: relative;
+  left: 390px;
+  text-align: center;
+}
+body
+{
+  background-image: url('images/bg.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -15,39 +33,48 @@ body {
   color: black;
   line-height: 26px;
 }
-.dark-blue{
+.dark-blue
+{
   color: darkblue;
 }
-.half-width{
+.half-width
+{
  width: 50%;
  float: left;
 }
-.me-thobe{ 
+.me-1
+{ 
+  position: relative;
+  width: 300px;
+  border: 3px solid #a01739;
+  padding: 10px;
+  left: 480px;
+  top: 350px;
+}
+.me-2
+{
   position: relative;
   width: 300px;
   border: 3px solid #a01739;
   padding: 10px;
 }
-.me-blueshirt{
-  position: relative;
-  right: -30%;
-  width: 300px;
-  border: 3px solid #a01739;
-  padding: 10px;
-}
-.hire-btn{
+.hire-btn
+{
   color: white;
   background-color: #d6a620;
   padding: 13px 42px;
   border-radius: 20px;
   text-decoration: none;
 }
-.container{
+.container
+{
   padding-left: 5%;
   display: inline-block;
   color: white;
 }
-.experiences{
+.experiences
+{
+  position: relative;
   float: left
   width: 40%;
   margin: 5%;
@@ -56,8 +83,11 @@ body {
   border: solid #88454f;
   color: black;
   box-shadow: 10px 10px 5px #aaaaaa;
+  bottom: 200px;
+  left: 75px;
 }
-.experience-item{
+.experience-item
+{
   padding: 10px;
   border-left: 1px solid rgba(137, 130, 247, .2);
   position: relative;
@@ -65,33 +95,44 @@ body {
   padding: 10px;
   color: black;
 }
-.second-header{
-  text-align: left;
+.second-header
+{
+  position: relative;
   width: 700px;
   line-height: normal;
+  left: 500px;
+  text-align: center;
 }
-.copyright{
-    text-align: center;
+.copyright
+{
+  position: relative;
+  text-align: center;
 }
-.my-dreams{
+.my-dreams
+{
+  position: relative;
   border: solid #88454f;
   width: 50%;
   float: left;
   padding-left: 2%; 
   height: 10%;
   background-color: white;
-  width: 40%;
+  width: 60%;
   color: black;
   box-shadow: 10px 10px 5px #aaaaaa;
+  left: 500px;
+  bottom: 300px;
 }
-.email-butn{
+.email-butn
+{
   color: white;
   background-color: #88454f;
   padding: 
   border-radius: 20px;
   text-decoration: none;
 }
-.experiences-title{
+.experiences-title
+{
   position: relative;
   right: 10%;
   color: black;
